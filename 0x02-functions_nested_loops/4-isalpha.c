@@ -1,4 +1,4 @@
-#include custom_header.h
+#include "headerfile.h"
 /**
  * A function that checks for alphabetic character
  * 	Return: 1 if letter is uppercase or lowercase
