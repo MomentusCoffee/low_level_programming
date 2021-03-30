@@ -1,0 +1,7 @@
+CC = gcc
+SRC = main.c makefile.c
+OBJ = $(SRC:.c=.o)
+NAME = makefile
+
+all: m.h $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
